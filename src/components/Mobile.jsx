@@ -5,6 +5,7 @@ const Mobile = (props)=>{
       <>
       
         <div className="parent">
+          
              <div id="child1">
               <img src={props.src} alt="img-1" width='250'/>
              </div>
@@ -21,12 +22,17 @@ const Mobile = (props)=>{
                     <li>{props.f5}</li>
                  </ul>
              </div>
+
              <div id="child3">
+                 <div id="price">
                  <h1>₹{props.price}</h1>
+                 </div>
+
                 <div id="max-price">
                  <p id="ac-price">{props.discount}</p>
                  <span>9% off</span>
                 </div>
+
                 <p>Free delivery</p>
                 <p>Save extra with combo offers
                  Upto ₹8,900 Off on Exchange</p>
