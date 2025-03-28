@@ -8,6 +8,7 @@ const Mobile = (props)=>{
              <div id="child1">
               <img src={props.src} alt="img-1" width='250'/>
              </div>
+
              <div id="child2">
                  <h2>{props.name}</h2>
                  <button id="rating-btn">4.3★</button>
@@ -34,6 +35,6 @@ const Mobile = (props)=>{
      
       </>
 
-    )
+    );
 }
 export default Mobile;
